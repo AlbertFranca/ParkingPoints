@@ -13,9 +13,9 @@ export class CadastroNotaFiscalPage implements OnInit {
   }
   /* parte que comanda os botoes */
   enviar() {
-    console.log("enviando...")
+    console.log('enviando...');
   };
   qrCode() {
-    console.log("enviando qrCode...")
+    console.log('enviando qrCode...');
   };
 }
