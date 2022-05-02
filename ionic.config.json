@@ -1,0 +1,7 @@
+{
+  "name": "ParkingPoints",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

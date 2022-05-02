@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start" color="light"></ion-menu-button>
+    <ion-title>Cadastro Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nome:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Cpf:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">E-mail:</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Celular:</ion-label>
+      <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Senha:</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Repetir Senha:</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+   
+    <ion-row>
+      <ion-col size="4">
+        <ion-button color="success" expand="block"  (click)="cadastrar()">Cadastrar</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button color="warning" expand="block"(click)="corrigir()">corrigir</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button color="danger" expand="block" (click)="cancelar()">Cancelar</ion-button>
+      </ion-col>
+      </ion-row>
+   
+   
+  </ion-list>
+</ion-content>

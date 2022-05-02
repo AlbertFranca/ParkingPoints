@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start" color="light"></ion-menu-button>
+    <ion-title>Cadastro Nota Fiscal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-button color="success" expand="block" slot="end" (click)="qrCode()">Ler QR CODE</ion-button><br>
+  </ion-item>
+  
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Loja:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Nº Nota Fiscal:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Data da Compra:</ion-label>
+      <ion-input type="numeric"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Valor:</ion-label>
+      <ion-input type="numeric"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Produto:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-button color="success" expand="block"  (click)="enviar()">Enviar</ion-button>
+  </ion-list>
+</ion-content>
